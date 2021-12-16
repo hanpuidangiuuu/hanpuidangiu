@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b0b09e9b0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Đồ án nhóm 4 </title>
+    
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            height: 100px;
+            font-family: 'Roboto', sans-serif;
+            background: #70e1f5;  
+            background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  
+            background: linear-gradient(to right, #ffd194, #70e1f5); 
+            background-size: cover;
+        }
+
+        .noi_dung,
+        .noi_dung3 {
+            margin: 0 auto;
+            margin-left: 760px;
+            margin-bottom: 120px;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 650px;
+            padding: 30px;
+            background: #ffffff;
+            box-sizing: border-box;
+            border-radius:10px;
+            box-shadow: 0 15px 50px rgba(0,0,0 0.2);
+            border-color: #8A2BE2;
+            border-style: outset;
+            border-width: 3px;
+        }
+    
+        .hinh_anh,
+        .hinh_anh1 {
+            width: 200px;
+            white-space: 30px;
+            border-radius: 20px;
+            border-color: #8A2BE2;
+            border-width: 2px;
+            border-style: outset;
+            height: 260px;
+            float: left;
+            margin:20px 20px 20px 0px;
+        }
+        .hinh_anh_logo {
+            width: 260px;
+            height: 260px;
+            margin-bottom: 37px;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #8A2BE2;
+            font-weight: 700;
+            font-size: 50px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 0px;
+            color: #000;
+            font-weight: 500;
+            font-size: 27px;
+            margin-bottom: 10px;
+            float: left;
+            color: #8A2BE2;
+            
+        }
+        
+        p {
+            color: #8A2BE2;
+        }
+
+        .hinh_anh2 {
+            width: 200px;
+            white-space: 30px;
+            border-radius: 20px;
+            height: 260px;
+            margin:18px 20px 20px 0px;
+            display: none;
+            
+        }
+
+        .hinh_anh:hover,
+        .hinh_anh:hover ~ h2,
+        .hinh_anh:hover ~ p,
+        .hinh_anh:hover ~ hr  {
+            display: none;
+        }
+
+        .hinh_anh:hover ~ .zoom_in > .hinh_anh2{   
+            display: inline;
+            margin-left: 20.5px;
+            transform: scale(1.20);
+            border-color: #8A2BE2;
+            border-style: outset;
+            border-width: 2px;
+        }
+
+        .contact p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="animate__animated animate__zoomIn animate__fast" ><i>Chào mừng các bạn đến với website của nhóm 4</i></h1>
+        <h3 style="padding-left: 30px ; padding-right: 73px;" class="animate__animated animate__zoomIn animate__fast" >Môn: Nhập môn Công nghệ thông tin</h3>
+        <h3 style="text-align: center" class="animate__animated animate__zoomIn animate__fast">Lớp học phần: 211_71ITBS10103_0702</h3>
+        <h3 style="padding-right: 30px ;padding-left: 73px ;" class="animate__animated animate__zoomIn animate__fast">Giảng viên: Thầy Trần Đức Minh</h3>
+        <img class="hinh_anh_logo animate__animated animate__rotateIn animate__fast" src="./logo.png" >
+        <img class="hinh_anh_logo animate__animated animate__rotateIn animate__fast" src="./logo.png" style="float: right;">
+    </div>
+    <div class="noi_dung animate__animated animate__zoomIn animate__fast" >
+        <div class="info  animate__animated animate__zoomIn animate__slow">
+            <img alt="Hân nè" class="hinh_anh" src="./han1.jpg" >
+            <h2 style="margin: 0 0 20px; padding:0; font-size: 30px; text-align: center" >Bùi Bảo Hân</h2>
+            <p>Trường Đại Học Văn Lang</p>
+            <p>Ngành: Công Nghệ Thông Tin</p>
+            <p>Lớp: 71K27CNTT32</p>
+            <p>Mã số sinh viên: 2174802010931</p>
+            <p>Quê quán: Bình Định</p>
+            <p>Sở thích: Ăn, Game</p>
+            <p>Nghề nghiệp tương lai: Game Designer</p>
+            <br> 
+            <hr>
+            <div class="zoom_in">
+                <img class="hinh_anh2" src="./han2.jpg" >
+            </div>
+        </div>
+        <div class="contact animate__animated animate__zoomIn animate__slow" >
+            <h2 style="text-align: center !important;  font-size: 30px;" >CONTACT</h2>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-phone-square-alt"> 0932412466</p>
+            <p style="text-align: center !important;">
+                <a class="fab fa-facebook-square" style="text-decoration: none; color: #8A2BE2;" target="_blank" href="https://www.facebook.com/profile.php?id=100034350276556"> Hân Bùi</a>
+            </p>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-envelope" > Email: han.2174802010931@vanlanguni.vn</p>
+        </div>
+    </div>
+    <div class="noi_dung animate__animated animate__zoomIn animate__fast" >
+        <div class="info  animate__animated animate__zoomIn animate__slow">
+            <img class="hinh_anh1" src="./andanh.png" >
+            <h2 style="margin: 0 0 20px; padding:0; font-size: 30px; text-align: center" >Nguyễn Gia Bảo</h2>
+            <p>Trường Đại Học Văn Lang</p>
+            <p>Ngành: Công Nghệ Thông Tin</p>
+            <p>Lớp: 71K27CNTT32</p>
+            <p>Mã số sinh viên: 2174802010916</p>
+            <p>Quê quán: Không có</p>
+            <p>Sở thích: Game</p>
+            <p>Nghề nghiệp tương lai: Chưa biết</p>
+            <br> 
+            <hr>
+            
+        </div>
+        <div class="contact animate__animated animate__zoomIn animate__slow" >
+            <h2 style="text-align: center !important; padding:0; font-size: 30px;" >CONTACT</h2>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-phone-square-alt"> Không có</p>
+            <p style="text-align: center !important;">
+                <a class="fab fa-facebook-square" style="text-decoration: none;color: #8A2BE2;" target="_blank" href="https://www.facebook.com/profile.php?id=100050580074377"> Nguyễn Gia Bảo</a>
+            </p>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-envelope" > Email: bao.2174802010916@vanlanguni.vn</p>
+        </div>
+    </div>
+    <div  class="noi_dung animate__animated animate__zoomIn animate__fast" >
+        <div class="info  animate__animated animate__zoomIn animate__slow">
+            <img class="hinh_anh1" src="./andanh.png" >
+            <h2 style="margin: 0 0 20px; padding:0; font-size: 30px; text-align: center" >Nguyễn Lê Hoàng Khang</h2>
+            <p>Trường Đại Học Văn Lang</p>
+            <p>Ngành: Công Nghệ Thông Tin</p>
+            <p>Lớp: 71K27CNTT32</p>
+            <p>Mã số sinh viên: 2174802010923</p>
+            <p>Quê quán: Không có</p>
+            <p>Sở thích: Game</p>
+            <p>Nghề nghiệp tương lai: CEO</p>
+            <br> 
+            <hr>
+            
+        </div>
+        <div class="contact animate__animated animate__zoomIn animate__slow" >
+            <h2 style="text-align: center !important; padding:0; font-size: 30px;" >CONTACT</h2>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-phone-square-alt"> Không có</p>
+            <p style="text-align: center !important;">
+                <a class="fab fa-facebook-square" style="text-decoration: none;color: #8A2BE2;" target="_blank" href="https://www.facebook.com/profile.php?id=100030065719646"> Khang Hoàng</a>
+            </p>
+            <p style="width: 540px;text-align: center !important; margin: -16px; padding-left: 16px;" class="fas fa-envelope" > Email: khang.2174802010923@vanlanguni.vn</p>
+        </div>
+    </div>
+    
+</body>
+</html>
